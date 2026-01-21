@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Zeinab Sleiman � Translation & Travel Services</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0; padding: 0;
+        color: #333;
+    }
+    header {
+        background-color: #0077b6;
+        color: white;
+        padding: 25px 0;
+        text-align: center;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    nav {
+        background: #023e8a;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 0;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    section {
+        padding: 50px 20px;
+        max-width: 1100px;
+        margin: auto;
+    }
+    .services-container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service-box {
+        flex: 1 1 300px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+    .service-box h3 { color: #0077b6; }
+    footer {
+        background: #023e8a;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+    }
+    .contact-info p {
+        margin: 8px 0;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Zeinab Sleiman</h1>
+    <p>Professional Translation & Travel Services</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to <strong>Zeinab Sleiman Translation & Travel Services</strong>. We are a trusted Lebanese agency offering professional translation services and personalized travel solutions. With years of experience and a focus on excellence, we help clients with accurate translations and seamless travel arrangements.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+
+        <div class="service-box">
+            <h3>Translation Services</h3>
+            <p>Certified Arabic ? English document translation (legal, personal, academic).</p>
+            <ul>
+                <li>Birth Certificates</li>
+                <li>Marriage Certificates</li>
+                <li>Academic Transcripts</li>
+                <li>Official Letters & Legal Papers</li>
+            </ul>
+        </div>
+
+        <div class="service-box">
+            <h3>Travel Planning & Visas</h3>
+            <p>Custom travel planning with visa assistance and ticketing.</p>
+            <ul>
+                <li>Flight Booking & Reservations</li>
+                <li>Hotel Reservations</li>
+                <li>Visa Consulting & Processing</li>
+                <li>Tour Packages & Personalized Trips</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p><strong>Email:</strong> sleiman.translation@gmail.com</p>
+        <p><strong>Phone:</strong> +961 3 656 722</p>
+        <p><strong>Instagram:</strong> @visavoyage.lb</p>
+        <p><strong>Offices:</strong> Bednayel, Ablah, Hazmieh & Choueifat, Lebanon</p>
+    </div>
+    <p>We�re here to help � reach out for quotes, bookings & support!</p>
+</section>
+
+<footer>
+    <p>� 2026 Zeinab Sleiman � All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
